@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "myfirstplaybook"
+  description: "awesome"
+  annotations:
+    github.com/project-slug: hattondev/myfirstplaybook
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://ansible-controller.wwtlab.net
+      title: Ansible Controller
+      icon: Website
+  tags:
+    - ansible
+    - playbook
+spec:
+  type: playbook
+  lifecycle: experimental
+  owner: "engineering"
